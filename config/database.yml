@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: <%= ENV["DATABASE_USER"] %>
+  password: <%= ENV["DATABASE_PASSWORD"] %>
+  port: <%= ENV["DATABASE_PORT"] %>
+  host: <%= ENV["DATABASE_HOST"] %>
+
+development:
+  <<: *default
+  database: notion_clone_development
+
+test:
+  <<: *default
+  database: notion_clone_test
+
+production:
+  <<: *default
+  database: notion_clone_production
