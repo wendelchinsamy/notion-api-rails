@@ -1,0 +1,24 @@
+  [1m[35m (116.7ms)[0m  [1m[35mCREATE DATABASE "notion_clone_rails_development" ENCODING = 'unicode'[0m
+  [1m[35m (36.6ms)[0m  [1m[35mCREATE DATABASE "notion_clone_rails_test" ENCODING = 'unicode'[0m
+Started GET "/" for 172.20.0.1 at 2022-12-11 08:42:01 +0000
+Processing by HealthCheckController#index as HTML
+Completed 200 OK in 38ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 2820)
+
+
+Started GET "/favicon.ico" for 172.20.0.1 at 2022-12-11 08:42:01 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/" for 172.20.0.1 at 2022-12-11 08:42:03 +0000
+Processing by HealthCheckController#index as HTML
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 121)
+
+
+Started GET "/ws" for 172.20.0.1 at 2022-12-11 12:52:14 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  
+Started GET "/ws" for 172.20.0.1 at 2022-12-11 12:53:23 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  

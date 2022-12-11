@@ -9,12 +9,12 @@ default: &default
 
 development:
   <<: *default
-  database: notion_clone_development
+  database: notion_clone_rails_development
 
 test:
   <<: *default
-  database: notion_clone_test
+  database: notion_clone_rails_test
 
 production:
   <<: *default
-  database: notion_clone_production
+  database: notion_clone_rails_production

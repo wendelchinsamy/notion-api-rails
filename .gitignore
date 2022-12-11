@@ -54,3 +54,6 @@ override.tf.json
 *.byebug_history
 
 .env
+
+/tmp/db/
+/tmp/cache/
